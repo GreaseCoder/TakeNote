@@ -18,9 +18,11 @@ namespace TakeNote.Controllers
 
         // POST api/notes
         [HttpPost]
-        public void Post([FromBody] NoteBody noteBody)
+        public void Post([FromBody] string json)
         {
-            NoteCollection.AddNote(noteBody.Body);
+            // For some reason I'm unable to bind to NoteBody for JSON deserialization.
+            // Until that's fixed, just used the JSON string as the contents for the body.
+            NoteCollection.AddNote(json);
         }
 
         [HttpGet]
