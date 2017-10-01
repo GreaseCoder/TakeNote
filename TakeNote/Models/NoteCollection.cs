@@ -9,7 +9,7 @@ namespace TakeNote.Models
     public class NoteCollection
     {
         private static HashSet<Notes> noteCollection = new HashSet<Notes>();
-        private static HashSet<Notes> GetInstance()
+        public static HashSet<Notes> GetInstance()
         {
             return noteCollection;
         }

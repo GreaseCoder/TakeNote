@@ -18,15 +18,24 @@ namespace TakeNote.Controllers
 
         // POST api/notes
         [HttpPost]
-        public void Post([FromBody] string json)
+        public void Post([FromBody] NoteBody noteBody)
         {
-            NoteCollection.AddNote(json);
+            NoteCollection.AddNote(noteBody.Body);
         }
 
         [HttpGet]
         public IEnumerable<Notes> Get([FromQuery] string query)
         {
-            return NoteCollection.Find(query);
+            if (query != null)
+            {
+                // Return notes based on search query
+                return NoteCollection.Find(query);
+            }
+            else
+            {
+                // Return all the notes
+                return NoteCollection.GetInstance();
+            }
         }
     }
 }
