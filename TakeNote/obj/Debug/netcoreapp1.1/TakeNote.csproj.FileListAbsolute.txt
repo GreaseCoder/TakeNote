@@ -1,0 +1,11 @@
+C:\Users\Wes\source\repos\TakeNote\TakeNote\bin\Debug\netcoreapp1.1\TakeNote.deps.json
+C:\Users\Wes\source\repos\TakeNote\TakeNote\bin\Debug\netcoreapp1.1\TakeNote.runtimeconfig.json
+C:\Users\Wes\source\repos\TakeNote\TakeNote\bin\Debug\netcoreapp1.1\TakeNote.runtimeconfig.dev.json
+C:\Users\Wes\source\repos\TakeNote\TakeNote\bin\Debug\netcoreapp1.1\TakeNote.dll
+C:\Users\Wes\source\repos\TakeNote\TakeNote\bin\Debug\netcoreapp1.1\TakeNote.pdb
+C:\Users\Wes\source\repos\TakeNote\TakeNote\obj\Debug\netcoreapp1.1\TakeNote.csprojResolveAssemblyReference.cache
+C:\Users\Wes\source\repos\TakeNote\TakeNote\obj\Debug\netcoreapp1.1\TakeNote.csproj.CoreCompileInputs.cache
+C:\Users\Wes\source\repos\TakeNote\TakeNote\obj\Debug\netcoreapp1.1\TakeNote.AssemblyInfoInputs.cache
+C:\Users\Wes\source\repos\TakeNote\TakeNote\obj\Debug\netcoreapp1.1\TakeNote.AssemblyInfo.cs
+C:\Users\Wes\source\repos\TakeNote\TakeNote\obj\Debug\netcoreapp1.1\TakeNote.dll
+C:\Users\Wes\source\repos\TakeNote\TakeNote\obj\Debug\netcoreapp1.1\TakeNote.pdb

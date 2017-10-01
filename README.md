@@ -1,0 +1,1 @@
+Your Backend task is to build a simple RESTful, JSON API to power a note-taking application.
