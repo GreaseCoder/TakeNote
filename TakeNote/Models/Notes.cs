@@ -7,7 +7,7 @@ namespace TakeNote.Models
 {
     public class NoteBody
     {
-        public string Body { get; set; }
+        public string body { get; set; }
     }
 
     public class Notes
